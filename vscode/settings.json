@@ -1,0 +1,39 @@
+{
+  "breadcrumbs.enabled": true,
+  "editor.cursorSurroundingLines": 5,
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.minimap.showSlider": "always",
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [
+    120
+  ],
+  "editor.showFoldingControls": "always",
+  "editor.tabSize": 2,
+  "eslint.autoFixOnSave": true,
+  "explorer.autoReveal": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/.git": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  "window.titleBarStyle": "custom",
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.iconTheme": "vs-minimal",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.tips.enabled": false,
+
+  // Language specific settings
+  "[markdown]": {
+    "editor.rulers": [],
+    "editor.wordWrap": "on"
+  }
+}
