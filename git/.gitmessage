@@ -1,0 +1,27 @@
+type: summary
+
+# description: what did you change and why?
+
+# ==============================================================================
+#
+# types:
+#   - build: Changes that affect the build system or external dependencies
+#   - ci: Changes to our CI configuration files and scripts
+#   - docs: Documentation only changes
+#   - feat: A new feature
+#   - fix: A bug fix
+#   - perf: A code change that improves performance
+#   - refactor: A code change that neither fixes a bug nor adds a feature
+#   - style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+#   - test: Adding missing tests or correcting existing tests
+#   - merge: merge commits, followed by "resolves #123" or "release 1.2.3"
+#
+# Remember to:
+#   - Use imperative present: "change" not "changed" nor "changes"
+#   - Do not write more than 100 chars per line
+#   - Do not capitalize the summary
+#   - Do not end the summary line with a period
+#   - Separate summary from description with a blank line
+#   - Use the description to explain what and why vs. how
+#
+# ==============================================================================

@@ -21,3 +21,5 @@
 [advice]
 	statusHints = false
 	detachedHead = false
+[commit]
+  template = ~/.gitmessage
