@@ -36,5 +36,11 @@
   "[markdown]": {
     "editor.rulers": [],
     "editor.wordWrap": "on"
+  },
+  
+  "[git-commit]": {
+    "editor.rulers": [80, 100],
+    "editor.wordWrap": "off",
+    "editor.minimap.enabled": false
   }
 }
