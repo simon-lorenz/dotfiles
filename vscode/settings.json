@@ -26,7 +26,6 @@
   "workbench.colorTheme": "Atom One Dark",
   "workbench.editor.tabCloseButton": "off",
   "workbench.editor.tabSizing": "shrink",
-  "workbench.iconTheme": "vs-minimal",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tips.enabled": false,
 
@@ -35,7 +34,7 @@
     "editor.rulers": [],
     "editor.wordWrap": "on"
   },
-  
+
   "[git-commit]": {
     "editor.rulers": [80, 100],
     "editor.wordWrap": "off",
