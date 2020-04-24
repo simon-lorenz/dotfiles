@@ -3,6 +3,7 @@ akamud.vscode-theme-onelight
 Angular.ng-template
 Arjun.swagger-viewer
 bierner.markdown-preview-github-styles
+bradlc.vscode-tailwindcss
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 Equinusocio.vsc-material-theme
