@@ -18,6 +18,8 @@
 	unskip = update-index --no-skip-worktree
 [core]
 	editor = code --wait
+	excludesfile = ~/.gitignore
+	pager = diff-so-fancy | less --tabs=4 -RFX
 [advice]
 	statusHints = false
 	detachedHead = false
@@ -25,3 +27,17 @@
 	template = ~/.gitmessage
 [remote "origin"]
 	prune = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 88
+	newNormal = green bold
+	newHighlight = green bold 28
+[color "diff"]
+	meta = 11
+	frag = blue bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[diff-so-fancy]
+	markEmptyLines = false
