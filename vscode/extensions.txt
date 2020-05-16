@@ -1,5 +1,3 @@
-akamud.vscode-theme-onedark
-akamud.vscode-theme-onelight
 Angular.ng-template
 Arjun.swagger-viewer
 bierner.markdown-preview-github-styles
@@ -21,3 +19,4 @@ ritwickdey.LiveServer
 Tyriar.sort-lines
 yzane.markdown-pdf
 yzhang.markdown-all-in-one
+zhuangtongfa.material-theme
