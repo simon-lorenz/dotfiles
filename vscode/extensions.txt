@@ -1,3 +1,4 @@
+adpyke.vscode-sql-formatter
 Angular.ng-template
 Arjun.swagger-viewer
 bierner.markdown-preview-github-styles
