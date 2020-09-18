@@ -1,5 +1,6 @@
 // Place your key bindings in this file to override the defaults
 [
+  // Change shortcut to comment lines. [Backslash] is # on a german keyboard.
   {
     "key": "ctrl+[Backslash]",
     "command": "editor.action.commentLine",
@@ -10,6 +11,9 @@
     "command": "-editor.action.commentLine",
     "when": "editorTextFocus && !editorReadonly"
   },
+
+  // Create and kill terminals with CTRL + Ö/Ä
+  // Split terminals with CTRL + Shift + Ö
   {
     "key": "ctrl+[Quote]",
     "command": "workbench.action.terminal.kill"
@@ -28,11 +32,16 @@
     "command": "-workbench.action.terminal.split",
     "when": "terminalFocus"
   },
+
+  // Helps formatting .md files
   {
     "key": "alt+c",
     "when": "resourceExtname == .md",
     "command": "markdown.extension.editing.toggleCodeSpan"
   },
+
+  // Switch focus between editor and terminal. [Backquote] is ^ (under esc) on a
+  // german keyboard.
   {
     "key": "ctrl+[Backquote]",
     "command": "workbench.action.terminal.focus"
@@ -40,6 +49,19 @@
   {
     "key": "ctrl+[Backquote]",
     "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+
+  // Switch between terminals (dropdown)
+  // Switching between splitted terminals is done with Alt + Arrow Left/Right
+  {
+    "key": "shift+alt+right",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "shift+alt+left",
+    "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
   }
 ]
