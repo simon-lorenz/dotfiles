@@ -32,5 +32,14 @@
     "key": "alt+c",
     "when": "resourceExtname == .md",
     "command": "markdown.extension.editing.toggleCodeSpan"
+  },
+  {
+    "key": "ctrl+[Backquote]",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "ctrl+[Backquote]",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
   }
 ]
