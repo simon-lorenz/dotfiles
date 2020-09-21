@@ -56,7 +56,8 @@
   "gitlab.enableExperimentalFeatures": true,
   "markdownlint.config": {
     "MD026": false,
-    "MD036": false
+    "MD036": false,
+    "MD034": false
   },
   "sql-formatter.uppercase": true,
   "vetur.format.enable": false,
