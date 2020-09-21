@@ -8,6 +8,7 @@
   "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
+  "editor.parameterHints.enabled": false,
   "editor.renderWhitespace": "all",
   "editor.rulers": [80, 100, 120],
   "editor.showFoldingControls": "always",
@@ -25,13 +26,8 @@
   },
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "sql-formatter.uppercase": true,
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
-  "vetur.format.enable": false,
-  "vetur.validation.template": false,
-  "vetur.validation.style": false,
-  "vetur.validation.script": false,
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
   "window.titleBarStyle": "custom",
   "workbench.colorCustomizations": {
@@ -44,17 +40,27 @@
   "workbench.tips.enabled": false,
 
   // Language specific settings
-  "[markdown]": {
-    "editor.rulers": [],
-    "editor.wordWrap": "on"
-  },
-
   "[git-commit]": {
     "editor.rulers": [80, 100],
     "editor.wordWrap": "off"
   },
-
+  "[markdown]": {
+    "editor.rulers": [],
+    "editor.wordWrap": "on"
+  },
   "[sql]": {
     "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
-  }
+  },
+
+  // Extension settings
+  "gitlab.enableExperimentalFeatures": true,
+  "markdownlint.config": {
+    "MD026": false,
+    "MD036": false
+  },
+  "sql-formatter.uppercase": true,
+  "vetur.format.enable": false,
+  "vetur.validation.template": false,
+  "vetur.validation.style": false,
+  "vetur.validation.script": false
 }
