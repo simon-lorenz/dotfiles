@@ -191,3 +191,5 @@ gaps bottom 40
 bindsym $mod+F5 exec gnome-control-center
 bindsym $mod+F6 exec nautilus
 bindsym $mod+F7 exec code
+
+focus_follows_mouse no
