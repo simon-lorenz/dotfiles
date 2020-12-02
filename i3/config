@@ -184,7 +184,7 @@ exec compton -f -i 0.95 --shadow -D 3
 bindsym $mod+l exec /home/simon/.config/i3lock/lock-simple.sh
 
 for_window [class=".*"] border pixel 0
-gaps inner 10
+gaps inner 20
 gaps outer 5
 gaps bottom 40
 

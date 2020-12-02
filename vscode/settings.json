@@ -29,7 +29,6 @@
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-  "window.titleBarStyle": "custom",
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#24242C"
   },
@@ -63,5 +62,8 @@
   "vetur.format.enable": false,
   "vetur.validation.template": false,
   "vetur.validation.style": false,
-  "vetur.validation.script": false
+  "vetur.validation.script": false,
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.visible": false,
+  "window.menuBarVisibility": "toggle"
 }
