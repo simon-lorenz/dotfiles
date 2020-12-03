@@ -23,3 +23,4 @@ echo 'Xcursor.size: 24' | sudo tee -a /etc/X11/XResources/x11-common
 
 cp -r ./i3/i3lock/ ~/.config/
 cp -r ./i3/polybar/ ~/.config/
+cp ./i3/compton.conf ~/.config/
