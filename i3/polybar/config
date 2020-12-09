@@ -32,7 +32,7 @@ alert = #bd2c40
 width = 75%;
 height = 35
 offset-x = 12.5%
-offset-y = 5
+offset-y = 10
 radius = 6.0
 fixed-center = false
 bottom = true
@@ -57,7 +57,7 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 #font-2 = siji:pixelsize=10;1
 
 modules-left = i3
-#modules-center = 
+#modules-center =
 modules-right = eth alsa memory cpu wlan temperature battery date
 
 tray-position = none
