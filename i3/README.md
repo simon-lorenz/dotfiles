@@ -14,6 +14,7 @@ sudo apt install arandr
 sudo apt install pavucontrol
 sudo apt install compton
 sudo apt install polybar
+sudo apt install playerctl
 
 ## Fix cursor size
 
